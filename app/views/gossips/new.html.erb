@@ -1,0 +1,11 @@
+<h1>Gossips Thp</h1>
+<p>test 1</p>
+
+<%= form_for @gossip, url: {action: "create"}, html: {class: "nifty_form"} do |f| %>
+ <%= label_tag 'anonymous_author', "Auteur "%>
+  <%= f.text_field :anonymous_author %>
+ <%= label_tag 'content', "Ton texte "%>
+  <%= f.text_area :content %>
+  <%= f.submit "Create" %>
+<% end %>
+<%= link_to 'Index Gossip', gossips_path %>

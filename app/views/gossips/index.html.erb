@@ -1,0 +1,20 @@
+<h1>Listing Gossips</h1>
+<%= link_to 'New gossip', new_gossip_path %>
+<table>
+ <tr>
+   <th>From</th>
+   <th>Gossip</th>
+   <th colspan="3"></th>
+ </tr>
+ <% @gossips.each do |gossip| %>
+   <tr>
+     <td><%= gossip.anonymous_author %></td>
+     <td><%= gossip.content %></td>
+     <td><%= link_to 'Show', gossip_path(gossip) %></td>
+     <td><%= link_to 'Edit', edit_gossip_path(gossip) %></td>
+     <td><%= link_to 'Destroy', gossip_path(gossip),
+             method: :delete,
+             data: { confirm: 'Are you sure?' } %></td>
+   </tr>
+ <% end %>
+</table>
