@@ -22,4 +22,4 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
-lien  a copier https://tranquil-journey-64409.herokuapp.com/
+lien:https://tranquil-journey-64409.herokuapp.com/
