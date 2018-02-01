@@ -1,25 +1,5 @@
-# README
+# Gossip project
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+logique du language tres compliquer baucoups de temps pour comprendre et le mettre en place pas le temps pour le stylisé sur avec bootstrap et cette histoire de class un bonne galere RoR selon moi
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
 lien:https://tranquil-journey-64409.herokuapp.com/
